@@ -20,8 +20,12 @@ p {
     background: #F3600C;
     color: white;
     padding: 2rem 0;
-}
 
+    position: fixed ;
+    left: 0;
+    top: 0em;
+    right: 0;
+}
 .header a {
     color: white;
     text-decoration: none;
@@ -30,6 +34,12 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.5em;
 }
 
 .navigation ul {
@@ -37,13 +47,63 @@ p {
     padding: 0;
     list-style: none;
 }
-    .navigation ul li {
-        display: inline-block ;
+.navigation ul li {
+    display: inline-block ;
+}
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem; 
+        transition: all 0.4s linear;
+        border-radius: 5px;
     }
-        .navigation ul li a {
-            display: block;
-            padding: 0.5rem 1rem; 
+        .navigation ul li a:hover{
+            background: #111111f6;
         }
-            .navigation ul li a:hover{
-                background: #ccc;
+
+
+.menu-icon {
+    display: none;   
+}
+.main {
+    padding-top: 10rem;
+}
+
+.footer {
+    background: "f2f2f2";
+    padding: 4rem 0;
+    margin-top: 6rem;
+    text-align: center ;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+        .navigation ul li {
+            display: block ;
+            margin-top: 1rem;
+        }
+            .navigation ul li a {
+                display: block;
+                padding: 0.5rem 0rem; 
+                transition: all 0.4s linear;
+                border-radius: 5px;
             }
+                .navigation ul li a:hover{
+                    background: #111111f6;
+                }
+    
+}

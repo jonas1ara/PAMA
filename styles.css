@@ -17,7 +17,7 @@ p {
 }
 
 .header {
-    background: #F3600C;
+    background: #000000;
     color: white;
     padding: 2rem 0;
 
@@ -57,7 +57,7 @@ p {
         border-radius: 5px;
     }
         .navigation ul li a:hover{
-            background: #111111f6;
+            background: #747070f6;
         }
 
 
@@ -67,6 +67,15 @@ p {
 .main {
     padding-top: 10rem;
 }
+div.proyecto {
+    height: 420px;
+    background-color: burlywood;
+}
+div.mapa {
+    height: 420px;
+    background-color: aquamarine;
+
+}
 
 .footer {
     background: "f2f2f2";
@@ -74,6 +83,7 @@ p {
     margin-top: 6rem;
     text-align: center ;
 }
+
 
 @media only screen and (max-width: 767px) {
 

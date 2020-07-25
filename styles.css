@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;;
     font-size: 1.3rem;
     color: black;
     line-height: 1.4em;
@@ -65,8 +65,48 @@ p {
     display: none;   
 }
 .main {
-    padding-top: 10rem;
+    background-image: url('img/Fotografías/Isla.png');
+    background-color: #333232;
+    background-blend-mode: soft-light;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin-bottom: 40px;
 }
+
+.Service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.Service img {
+    display: block;
+    margin: auto;
+}
+.Service h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Service p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
 div.proyecto {
     height: 420px;
     background-color: burlywood;

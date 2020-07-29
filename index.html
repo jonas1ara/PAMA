@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+ |  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
     <title>
         Grupo PAMA
     </title>
-    <link rel="icon" type="image/css" href="img/Logos/pama.jpg">
-    <script src="https://kit.fontawesome.com/d8d3391b0e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/css" href="img/Logos/pm.jpg">
 </head>
 <body>
     <header class="header">
         <div class="container logo-nav-container">
             <a class="logo" href="index.html">PAMA</a>
-            <span class="menu-icon">Ver menú</span>
+            <span class="menu-icon"><i class="fas fa-align-justify"></i></span>
                 <nav class="navigation">
                     <ul>
                         <li>
@@ -49,17 +49,82 @@
             <img src="/img/Logos/traslado.png" alt="Traslado">
             <h3>Traslado</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, nesciunt!</p>
-        </div>              
+        </div>                 
     </div>
     <div id="proyecto" class="proyecto"></div>
 
-    <div id="mapa" class="mapa"></div>
-
+    <div id="mapa" class="mapa">
+    </div>
+    <div class="clientes">
+        <h2>Clientes</h2>
+        <div class="container-client">
+            <h3>Industria Automotriz</h3>
+            <div class="client">
+                <div>
+                    <img src="/img/Logos/LogosClientes/benteler.png" alt="benteler">
+                </div>    
+                <div>   
+                    <img src="/img/Logos/LogosClientes/brose.png" alt="brose">
+                </div>
+                <div>
+                    <img src="/img/Logos/LogosClientes/norm_blanco.png" alt="norm">
+                </div>
+            </div>
+                <h3>Otros clientes</h3>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+        </div>
+    </div>
         <footer class="footer">
-            Grupo PAMA &copy; 2020
-            <a target="blank" href="https://www.facebook.com/Grupo-PAMA-109573714001028"><i class="fab fa-facebook"></i></a>
+            <div class="container-body">
+                <div class="column1">
+                    <h3>Mas sobre nosotros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolor!</p>
+                </div>
+                <div class="colum2">
+                    <h3>Redes sociales</h3>
+                        <div class="row">
+                            <a target="blank" href="https://www.facebook.com/Grupo-PAMA-109573714001028"><i class="fab fa-facebook-square"></i></a>
+                            <label>Siguenos en Facebook</label>    
+                        </div>
+                        <div class="row2">
+                            <a target="blank" href="https://www.facebook.com/Grupo-PAMA-109573714001028"><i class="fab fa-linkedin"></i></a>
+                            <label>Siguenos en LinkedIn</label>    
+                        </div>
+                </div>
+                        <div class="column3">
+                            <h3>Contactanos</h3>
+                                <div>
+                                    <i class="fas fa-street-view"></i>
+                                    <label>
+                                        Calle 6 Nte. 2 Libertad 72130 Puebla, Pue.
+                                    </label>
+                                </div>
+                                <div>
+                                    <i class="fas fa-phone-square"></i>
+                                    <label>
+                                        +52 1 222 156 38 46
+                                    </label>
+                                </div>
+                                <div class>
+                                    <i class="fas fa-envelope"></i>
+                                    <label>
+                                        servicio@pama.com.mx
+                                    </label>
+                                </div>
+                        </div>
+            </div>
+            <div class="container-footer">
+                <div class="copy">
+                    &copy; 2020 Todos los Derechos Reservados | <img src="/img/Logos/ja.jpg" alt=""> <a href="">Odyssey</a>
+                </div>
+            </div>
         </footer>
     </div>
+    <script src="https://kit.fontawesome.com/d8d3391b0e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js"></script>
 </body>

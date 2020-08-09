@@ -23,5 +23,5 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 L.marker([19.06771, -98.231565]).addTo(map)
-    .bindTooltip('Grupo PAMA <br> Integración Industrial')
+    .bindTooltip('Grupo Pama <br> Integración Industrial')
     .openTooltip();

@@ -21,7 +21,7 @@ p {
     color: white;
     padding: 2rem 0;
 
-    position: fixed ;
+    position: fixed;
     left: 0;
     top: 0em;
     right: 0;
@@ -261,22 +261,27 @@ div.mapa {
     height: 420px;
 }
 .container-client {
-    height: 420px;
+    height: 320px;
     background-color: rgb(196, 196, 196); 
-    margin-top: auto;
+    margin: auto ;
+    padding: 10px 0;
     text-align: center;
-    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
 .container-client h2 {
+    text-transform: uppercase;
     color: white;
     font-size: 25px;
+    margin-top: 2.5rem;
 }
 
 .container-client h3{
     color: #333232;
     font-size: 15px;
+    margin: 0;
+    text-decoration: none;
 }
+
 .clients {
     margin: 0;
     display: inline-block;

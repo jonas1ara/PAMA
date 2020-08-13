@@ -119,12 +119,12 @@ div.proyecto {
     background-color: #3f0909;
 }
 div.mapa {
-    height: 420px;
+    height: 450px;
 }
 .container-client {
     height: 310px;
     background-color: rgb(196, 196, 196); 
-    margin: auto;
+    margin: 0;
     padding: 10px;
     text-align: center; 
     text-transform: none;

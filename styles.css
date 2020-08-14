@@ -146,22 +146,6 @@ div.mapa {
     margin: 0;
 }
 
-.container-client h3::after, .container-client h3::before {
-    content: '';
-    position: absolute;
-    width:200px;
-    height: 1px;
-    background-color: #3b3b3b;
-    top: 1em;
-}
-
-.container-client h3::before {
-    left: 22rem;
-}
-
-.container-client h3::after {
-    right: 22rem;
-}
 
 
 .clients {

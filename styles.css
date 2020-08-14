@@ -119,12 +119,12 @@ div.proyecto {
     background-color: #3f0909;
 }
 div.mapa {
-    height: 450px;
+    height: 420px;
 }
 .container-client {
     height: 310px;
     background-color: rgb(196, 196, 196); 
-    margin: 0;
+    margin: auto;
     padding: 10px;
     text-align: center; 
     text-transform: none;
@@ -138,7 +138,7 @@ div.mapa {
 }
 
 .container-client h3{
-    color: #6d6d6d;
+    color: #3b3b3b;
     font-size: 15px;
     font-weight: 400;
     display: block;
@@ -179,35 +179,69 @@ div.mapa {
 }
 /* Nosotros */ 
 
-.nosotros {
-    padding-top: 2rem ;
-    margin-top: 4em;
-    background-color: #0e76a8;
-}
 
-.nosotros p {
-    font-size: 20px;
-    font-weight: 400;
-    text-align: justify;
-}
 .queondamai {
     background-image: url('img/Fotografías/fuerzamoral.jpg');
     background-color: #333232;
     background-blend-mode: soft-light;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: 0px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: uppercase;
     flex-direction: column;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
+
+.queondamai h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400; 
+    color: #ffffff; 
+    display: block;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.queondamai h2 {
+    font-size: 25px;
+    font-weight: 400; 
+    color: #ffffff; 
+    display: block;
+    margin: 0rem;
+    overflow: hidden;
+}
+.nosotros {
+    height: 420px;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.nosotros h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.nosotros img {
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+.nosotros p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 20px;
+}
+
+
 
 
 .footer {
@@ -307,4 +341,13 @@ div.mapa {
                 }
     
 }
-
+/*Nosotros*/
+@media (min-width: 768px){
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .columnas {
+        flex: 0 0 calc(50% -1rem);
+    }
+}

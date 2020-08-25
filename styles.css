@@ -158,43 +158,6 @@ div.mapa {
     margin: 0rem;
     overflow: hidden;
 }
-.nosotros {
-    height: 420px;
-    padding: 10px 0;
-    margin: 0;
-    background-color: #ffffff;
-}
-
-.nosotros h3 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    margin: 30px 0;
-}
-
-.nosotros img {
-    height: 333px;
-    width: 333px;
-    margin: 20px;
-}
-.nosotros p {
-    text-align: justify;
-    font-size: 15px;
-    margin: 20px;
-}
-
-
-
-.container-testi {
-    width: 100%;
-    max-width: 850px;
-    height: 430;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-
 
 /*Footer*/
 
@@ -357,16 +320,19 @@ footer {
     
 }
 
-/*Nosotros*/
-@media (min-width: 768px){
-    .grid {
-        display: flex;
-        justify-content: space-between;
+/*Service*/
+
+@media screen and (max-width:768px) {
+    .Service {
+        max-width: 100%;
+        text-align: center;
     }
-    .columnas {
-        flex: 0 0 calc(50% -1rem);
+    .Service div {
+        grid-column: 1/ -1;
     }
+   
 }
+/*Nosotros*/
 
 /*Nosotros testimonial*/ 
 

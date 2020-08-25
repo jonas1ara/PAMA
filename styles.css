@@ -91,6 +91,7 @@ p {
         border-radius: 0px;
         border: 5px solid #ff5e00;
 }
+
 .Service {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -114,53 +115,10 @@ p {
     font-size: 20px;
 }
 
-div.proyecto {
-    height: 420px;
-    background-color: #3f0909;
-}
 div.mapa {
     height: 420px;
 }
-.container-client {
-    height: 310px;
-    background-color: rgb(196, 196, 196); 
-    margin: auto;
-    padding: 10px;
-    text-align: center; 
-    text-transform: none;
-    font-family: 'Oswald', sans-serif;
-}
-.container-client h2 {
-    color: white;
-    font-size: 25px;
-    margin-top: 40px;
-    text-transform: uppercase;
-}
 
-.container-client h3{
-    color: #3b3b3b;
-    font-size: 15px;
-    font-weight: 400;
-    display: block;
-    position: relative;
-    margin: 0;
-}
-
-
-
-.clients {
-    margin: 0;
-    display: inline-block;
-    position: relative;  
-}
-.clients img {
-    display: flex;
-    margin: auto; 
-    padding: 1px;
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
-}
 /* Nosotros */ 
 
 
@@ -205,7 +163,6 @@ div.mapa {
     padding: 10px 0;
     margin: 0;
     background-color: #ffffff;
-    display: inline-block;
 }
 
 .nosotros h3 {
@@ -214,9 +171,10 @@ div.mapa {
     font-weight: 400;
     margin: 30px 0;
 }
+
 .nosotros img {
-    height: 250px;
-    width: 400px;
+    height: 333px;
+    width: 333px;
     margin: 20px;
 }
 .nosotros p {
@@ -226,71 +184,132 @@ div.mapa {
 }
 
 
+/*Footer*/
 
-
-.footer {
+footer {
+    width: 100%;
     background: #3b3b3b;
     color: white;
-    width: 100%;
-    margin-top: auto;
-    text-align: justify;
+}
+
+.container-footer-all {
+    width: 70%;
+    max-width: 850px;
+    margin: auto;
+    padding: 40px;
 }
 
 .container-body {
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
-    margin-bottom: 4em; 
-    padding-left: 12em;  
+    justify-content: space-between;
 }
 
-.container-body h3 {
-    font-size: 20px;
+.column1 {
+    max-width: 284px;
+}
+
+.column1 h1 {
+    font-size: 25px;
     text-transform: uppercase;
 }
-.container-body label {
-    font-size: 15px;
+
+.column1 p {
+    font-size: 14px;
     color: rgb(196, 196, 196);
+    margin-top: 10px;
 }
-.container-body p {
-    font-size: 15px;
-    color: rgb(196, 196, 196);
+
+.column2 {
+    max-width: 284px;
+}
+
+.column2 h1{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.row {
+    margin-top: 10px;
+    display: flex;
 }
 
 .row i {
-    color: #3b5998;
+    width: 25px;
+    height: 25px;
+    color: white;
 }
 
-.row2 i {
-    color: #0e76a8 ;
+
+.row label {
+    margin: 0px;
+    color: rgb(196, 196, 196);
+    font-size: 14px;
+}
+
+.column3 {
+    max-width: 284px;
+}
+
+.column3 h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.row2 {
+    margin-top: 10px;
+    
+}
+
+.row2 i{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.row2 label {
+    margin: 0px;
+    max-width: 140px;
+    font-size: 14px;
+    color: rgb(196, 196, 196);
 }
 
 .container-footer {
+    width: 100%;
     background: black;
-    text-align: left;
+}
+
+.foter {
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .copy {
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif;
-    color: rgb(196, 196, 196);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 15rem;
-}
+    color: rgb(196, 196, 196);;
+    font-size: 13px;
 
-.copy a {
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-decoration: none;
 }
 
 .copy img {
-    width: 15x;
     height: 14px;
+    width:14px;
 }
+.copy a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold ;
+}
+
+.information {
+    font-size: 13px;
+}
+.information a {
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+}
+
 
 
 @media only screen and (max-width: 767px) {
@@ -325,6 +344,7 @@ div.mapa {
                 }
     
 }
+
 /*Nosotros*/
 @media (min-width: 768px){
     .grid {
@@ -333,5 +353,47 @@ div.mapa {
     }
     .columnas {
         flex: 0 0 calc(50% -1rem);
+    }
+}
+
+/*Nosotros testimonial*/ 
+
+/* Footer */
+
+@media screen and (max-width:1100px) {
+
+    .container-body {
+        flex-wrap: wrap;
+    }
+
+    .column2,
+    .column3 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:715px) {
+
+    .container-body {
+        flex-wrap: wrap;
+    }
+
+    .column1 {
+        max-width: 100%;
+    }
+
+    .column2,
+    .column3 {
+        margin-top: 40px;
+    }
+    
+    .container-footer {
+        max-width: 100%;
+    }
+    .foter {
+        display: block;
+    }
+    .information {
+        margin-top: 10px;
     }
 }

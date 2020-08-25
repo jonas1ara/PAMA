@@ -325,7 +325,7 @@ footer {
 @media screen and (max-width:768px) {
     .main h1 {
         text-align:center;
-        line-height: 40px;
+        line-height: 50px;
     }
 
 }

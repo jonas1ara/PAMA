@@ -126,19 +126,19 @@ div.mapa {
     background-image: url('img/Fotografías/fuerzamoral.jpg');
     background-color: #333232;
     background-blend-mode: soft-light;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: 0px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
     text-transform: uppercase;
     flex-direction: column;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .queondamai h1{
@@ -155,45 +155,54 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
     overflow: hidden;
     padding: 15px;
     margin: 15px;
 }
 
-.container-nosotros {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
 .nosotros {
-    display: grid;
-    grid-template-columns: 50% 50% ;
-    grid-template-areas: "image" "text";
-
-    background: white;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
-
+    max-width: 1100px;
+    margin: 0 auto;
     text-align: justify;
-    align-items: center;
-    justify-content: center;
 }
 
-.nosotros-image {
-    grid-area: image;
-    background: url(/pama/img/Fotografías/Robot_rock.jpg);
-    background-size: cover;
+.nosotros img {
     height: 350px;
-    width: 90%;
-}
-
-.nosotros-text {
-    grid-area: text;
+    max-width: 100%;
     
 }
+
+.nosotros p{
+    margin: 15px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+ 
+    .nosotros .nosotros1 img{
+        width: 100%;
+        
+    }
+
+}
+
+@media (min-width:1025px){
+    .nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nosotros1 {
+        flex: 0 0 calc( 50% -1rem);
+    }
+    .nosotros .nosotros1 img {
+        width: 1200px;
+    }
+}
+
+
+
 
 .container-humanbody {
     width: 100%;

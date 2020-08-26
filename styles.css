@@ -65,7 +65,7 @@ p {
     display: none;   
 }
 .main {
-    background-image: url('img/Fotografías/Isla.png');
+    background-image: url('/img/Fotografías/Isla.png');
     background-color: #333232;
     background-blend-mode: soft-light;
     height: 100vh;
@@ -126,37 +126,29 @@ div.mapa {
     background-image: url('img/Fotografías/fuerzamoral.jpg');
     background-color: #333232;
     background-blend-mode: soft-light;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     margin: 0px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
     flex-direction: column;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
-    margin-bottom: 0px;
+    margin-bottom: 40px;
 }
 
 .queondamai h1{
-    text-transform: uppercase;
-    font-size: 30px;
+    
     font-weight: 400; 
     color: #ffffff; 
-    display: block;
-    margin: 1rem;
+    padding: 30px;
     overflow: hidden;
-}
-
-.queondamai h2 {
-    font-size: 25px;
-    font-weight: 400; 
-    color: #ffffff; 
-    display: block;
-    margin: 0rem;
-    overflow: hidden;
+    border-radius: 0px;
+    border: 5px solid #ff5e00;
 }
 
 h2 {
@@ -443,10 +435,8 @@ footer {
 @media screen and (max-width:1100px) {
     .queondamai h1 {
         text-align:center;
+        line-height: 50px;
         
-    }
-    .queondamai h2 {
-        text-align: center;
     }
 }
 

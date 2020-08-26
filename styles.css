@@ -65,7 +65,7 @@ p {
     display: none;   
 }
 .main {
-    background-image: url('/img/Fotografías/Isla.png');
+    background-image: url('img/Fotografías/Isla.png');
     background-color: #333232;
     background-blend-mode: soft-light;
     height: 100vh;

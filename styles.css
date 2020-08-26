@@ -164,13 +164,48 @@ h2 {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 0;
-    margin: 0;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container-nosotros {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-areas: "image" "text";
+
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
+
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.nosotros-image {
+    grid-area: image;
+    background: url(/pama/img/Fotografías/Robot_rock.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 90%;
+}
+
+.nosotros-text {
+    grid-area: text;
+    
 }
 
 .container-humanbody {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +258,7 @@ h2 {
 }
 .card-stats {
     grid-area: stats;
-    background: #ff5e00;
+    background: #000000;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }

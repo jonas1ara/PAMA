@@ -127,7 +127,7 @@ div.mapa {
     background-image: url('img/Fotografías/fuerzamoral.jpg');
     background-color: #333232;
     background-blend-mode: soft-light;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     margin: 0px;
     color: white;
@@ -271,6 +271,38 @@ h2 {
 }
 
 /*Servicios*/
+
+.urgeurge {
+    background-image: url('img/Fotografías/nosotros.jpg');
+    background-color: #333232;
+    background-blend-mode: soft-light;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-transform: uppercase;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin-bottom: 0px;
+}
+
+.urgeurge h1{
+    
+    text-align: center;
+    font-weight: 400; 
+    line-height: 50px;
+    color: #ffffff; 
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 0px;
+    border: 5px solid #ff5e00;
+}
+
 
 :root {
     --gradient-color: linear-gradient(to right bottom, rgba(255, 119, 48, .8), rgba(255, 185, 0, .8));
@@ -725,6 +757,16 @@ footer {
 
 @media screen and (max-width:1100px) {
     .queondamai h1 {
+        text-align:center;
+        line-height: 50px;
+        
+    }
+}
+
+/*urgeurge*/
+
+@media screen and (max-width:1100px) {
+    .urgeurge h1 {
         text-align:center;
         line-height: 50px;
         

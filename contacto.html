@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
     <title>
         Contacto
     </title>
@@ -30,6 +31,48 @@
                 </nav>
         </div>
     </header>
+
+    <div class="container-contact">
+        <h1 class="brand"><span>Mantenimiento e integración industrial</span></h1>
+        <div class="wrapper animated bounceInLeft">
+          <div class="company-info">
+            <h3>Grupo PAMA</h3>
+            <ul>
+              <li><i class="fa fa-road"></i> Calle 6 Nte. 2 Libertad 72130 Puebla, Pue.</li>
+              <li><i class="fa fa-phone"></i> +52 1 222 156 38 46</li>
+              <li><i class="fa fa-envelope"></i> servicio@pama.com.mx</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3>Escribenos</h3>
+            <form>
+              <p>
+                <label>Nombre</label>
+                <input type="text" name="name">
+              </p>
+              <p>
+                <label>Empresa</label>
+                <input type="text" name="company">
+              </p>
+              <p>
+                <label>Dirección de correo</label>
+                <input type="email" name="email">
+              </p>
+              <p>
+                <label>Número de telefono</label>
+                <input type="text" name="phone">
+              </p>
+              <p class="full">
+                <label>Mensaje</label>
+                <textarea name="message" rows="5"></textarea>
+              </p>
+              <p class="full">
+                <button>Enviar</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
 
     <div id="mapa" class="mapa">
     </div>
@@ -90,8 +133,8 @@
             </div>
         </div>
     </footer>
-
     <script src="https://kit.fontawesome.com/d8d3391b0e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="main.js"></script>
 </body>

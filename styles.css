@@ -203,7 +203,7 @@ h2 {
 }
 
 
-
+/*Testimoniales*/
 
 .container-humanbody {
     width: 100%;
@@ -220,7 +220,7 @@ h2 {
     grid-template-rows: 200px 210px 25px;
     grid-template-areas: "image" "text" "stats";
 
-    border-radius: 18px;
+    border-radius: 5px;
     background: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
     text-align: center;
@@ -230,12 +230,12 @@ h2 {
     margin: 30px;
 }
 
-.card-image {
+.card-image img{
     grid-area: image;
-    background: url(/pama/img/Fotografías/testimonial.jpg);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-size: cover;
+    width: 100%;
 }
 
 .card-text {
@@ -249,7 +249,7 @@ h2 {
 }
 
 .card-text p {
-    color: grey;
+    color: rgb(75, 75, 75);
     font-size: 15px;
     font-weight: 300;
 }
@@ -257,12 +257,13 @@ h2 {
 .card-text h2 {
     margin-top: 0;
     font-size: 28px;
+    color: white;
 }
 .card-stats {
     grid-area: stats;
     background: #000000;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .card:hover {
@@ -352,7 +353,7 @@ a {
 .container-xard {
     font-size: 1.6rem;
     color: #333;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(196, 196, 196);
     height: 2450px;
     display: flex;
     flex-direction: column;
@@ -366,7 +367,7 @@ a {
     flex-direction: column;
     background-color: white;
     box-shadow: 2px .8rem 1rem rgba(0,0,0,.05);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 

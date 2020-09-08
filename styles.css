@@ -110,6 +110,8 @@ div.projects {
     display: block;
     margin: auto;
 }
+
+
 .Service h3 {
     font-size: 20px;
     margin: 10px 0;
@@ -625,7 +627,7 @@ a {
 /*Contacto*/
 
 .contactus {
-    background-image: url('img/Fotografías/jp-morgan.jpg');
+    background-image: url('img/Fotografías/tablet.jpg');
     background-color: #333232;
     background-blend-mode: soft-light;
     height: 100vh;
@@ -640,7 +642,7 @@ a {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .contactus h1{

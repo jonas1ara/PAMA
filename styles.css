@@ -89,12 +89,12 @@ p {
         padding: 30px;
         overflow: hidden;
         border-radius: 0px;
-        border: 5px solid #ff5e00;
+        border: 5px solid #ffffff;
 }
 
 div.projects { 
     height: 420px;
-    background: #a2a2a2;
+    background: #3f0808;
     margin-bottom: 40px;
 }
 
@@ -123,7 +123,8 @@ div.projects {
 
 div.clientes {
     height: 420px;
-    background: #3f0808;
+    background: #a2a2a2;
+    
 }
 
 /* Nosotros */ 
@@ -155,7 +156,7 @@ div.clientes {
     padding: 30px;
     overflow: hidden;
     border-radius: 0px;
-    border: 5px solid #ff5e00;
+    border: 5px solid #ffffff;
 }
 
 h2 {
@@ -339,7 +340,7 @@ h2 {
     padding: 30px;
     overflow: hidden;
     border-radius: 0px;
-    border: 5px solid #ff5e00;
+    border: 5px solid #ffffff;
 }
 
 
@@ -623,6 +624,37 @@ a {
 
 /*Contacto*/
 
+.contactus {
+    background-image: url('img/Fotografías/jp-morgan.jpg');
+    background-color: #333232;
+    background-blend-mode: soft-light;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-transform: uppercase;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    margin-bottom: 20px;
+}
+
+.contactus h1{
+    text-align: center;
+    font-weight: 400; 
+    line-height: 30px;
+    color: #ffffff; 
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 0px;
+    border: 5px solid #ffffff;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -660,7 +692,7 @@ a {
   }
   
   .company-info{
-    background:#3f0808;
+    background:#6790e9;
   }
   
   .company-info h3, .company-info ul{
@@ -695,18 +727,18 @@ a {
   .contact form button, .contact form input, .contact form textarea{
     width:100%;
     padding:1em;
-    border:1px solid #972222;
+    border:1px solid #6790e9;
   }
   
   .contact form button{
-    background:#3f0808;
+    background:#6790e9;
     color: #FFF;
     border:0;
     text-transform: uppercase;
   }
   
   .contact form button:hover,.contact form button:focus{
-    background:#b40000;
+    background:#3c4ef8;
     color:#fff;
     outline:0;
     transition: background-color 2s ease-out;
@@ -922,6 +954,16 @@ footer {
         
     }
 }
+
+@media screen and (max-width:1100px) {
+    .contactus h1 {
+        text-align:center;
+        line-height: 50px;
+        
+    }
+}
+
+
 
 
 

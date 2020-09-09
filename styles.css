@@ -71,7 +71,7 @@ p {
     background-blend-mode: soft-light;
     height: 80vh;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     color: white;
     display: flex;
     align-items: center;
@@ -91,21 +91,7 @@ p {
         border-radius: 0px;
         border: 5px solid #ff5e00;
 }
-
-
-div.projects1 {
-    height: 420px;
-    background: #c2c2c2;
-    
-}
-
-div.projects2 { 
-    height: 420px;
-    background: #3f0808;
-    margin-bottom: 40px;
-}
-
-
+ /*Servicios Home*/ 
 
 .Service {
     display: grid;
@@ -134,13 +120,287 @@ div.projects2 {
     line-height: 25px;
 }
 
+/*Proyectos */
+div.projects1 {
+    height: 400px;
+    background: #c2c2c2;
+}
+
+.pro1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.pro1 img {
+    height: 400px;
+    margin-top: 0px;
+    max-width: 100%;
+    clip-path: inset(1% 1% 0% 1%);
+    
+}
+
+.pro1 h2 {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 5px;
+}
+.pro1 p{
+    margin: 10px ;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+.pro1 a {
+
+    background: #000000;
+    color: #fff;
+    float: right;
+    font-size: 1.25em;
+    margin: 20px 20px 0px 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    transition: background-color 2s;
+    
+}
+
+.pro1 a:hover {
+    background-color: #706d6d;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    div.projects1 {
+        height: 820px;
+    }
+    .pro1 .pro11 img{
+        width: 100%;
+    }
+
+}
+
+@media (min-width:768px){
+    .pro1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .pro11 {
+        flex: 0 0 calc( 50% -1rem);
+    }
+    .pro1 .pro11 img {
+        width: 1300px;
+        clip-path: polygon(25% 0, 100% 0, 75% 100%, 0% 100%);
+        margin: 0px;
+    }
+
+    .pro1 .pro11 h2 {
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-transform: uppercase;
+        overflow: hidden;
+        font-size: 20px;
+        padding: 0px;
+        margin:30px 30px 10px 100px;
+        }
+
+    .pro1 .pro11 p{
+        padding: 0px;
+        margin: 15px 30px 10px 100px;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 25px;
+        color: rgb(54, 54, 54);
+        }
+}
+
+
+div.projects2 { 
+    height: 400px;
+    background: #aa1e1e;
+}
+
+.pro2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.pro2 img {
+    height: 400px;
+    max-width: 100%;
+    margin-top: 0px;
+    clip-path: inset(1% 1% 0% 1%);
+    
+}
+
+.pro2 h2 {
+    color: #3f0808;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 5px;
+}
+.pro2 p{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #FFF;
+}
+
+.pro2 a {
+
+    background: #3f0808;
+    color: #fff;
+    float: right;
+    font-size: 1.25em;
+    margin: 20px 20px 0px 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    transition: background-color 2.5s;
+    
+}
+
+.pro2 a:hover {
+    background-color: #ca7272;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    
+    div.projects2 {
+        height: 820px;
+    }
+    .pro2 .pro22 img{
+        width: 100%;
+    }
+
+    
+}
+
+@media (min-width:768px){
+    .pro2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .pro22 {
+        flex: 0 0 calc( 50% -1rem);
+    }
+    .pro2 .pro22 img {
+        width: 1300px;
+        clip-path: polygon(25% 0%, 100% 0, 75% 100%, 0% 100%);
+    }
+
+    .pro2 .pro22 h2 {
+        color: #3f0808;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-transform: uppercase;
+        overflow: hidden;
+        font-size: 20px;
+        margin: 30px 25px 10px 30px;
+        padding: 0px;    
+    }
+
+    .pro2 p{
+        padding: 0px;
+        margin: 15px 100px 10px 30px;
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 25px;
+        color: #FFF;
+    }
+
+    .pro2 a {
+        margin: 15px 100px 10px 30px ;
+    }
+    
+
+        
+}
+
+/*Values*/
+
+div.values {
+    height: 400px;
+    background: #c2c2c2;
+}
+
+.val1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.val1 img {
+    height: 420px;
+    max-width: 100%;
+    
+}
+
+.val1 p{
+    margin: 15px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .val1 .val11 img{
+        width: 100%;
+        
+    }
+
+}
+
+@media (min-width:1025px){
+    .val1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .val11 {
+        flex: 0 0 calc( 50% -1rem);
+    }
+    .val1 .val11 img {
+        width: 1200px;
+    }
+}
+
+
+/*Clientes*/
+
 div.clientes {
     height: 420px;
     background: #a2a2a2;
     
 }
 
-/* Nosotros */ 
+/* Página Nosotros */ 
 
 
 .queondamai {
@@ -218,8 +478,6 @@ h2 {
 
 
 @media screen and (max-width:1024px) {
-
- 
     .nosotros .nosotros1 img{
         width: 100%;
         
@@ -341,7 +599,7 @@ h2 {
 
 }
 
-/*Servicios*/
+/*Página Servicios*/
 
 .urgeurge {
     background-image: url('img/Fotografías/nosotros.jpg');

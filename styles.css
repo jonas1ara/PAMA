@@ -71,7 +71,7 @@ p {
     background-blend-mode: soft-light;
     height: 80vh;
     width: 100%;
-    margin-bottom: 50px;
+    margin:0px;
     color: white;
     display: flex;
     align-items: center;
@@ -84,12 +84,12 @@ p {
 }
 
 .main h1{
-        font-weight: 400; 
-        color: #ffffff; 
-        padding: 30px;
-        overflow: hidden;
-        border-radius: 0px;
-        border: 5px solid #ff5e00;
+    font-weight: 400; 
+    color: #ffffff; 
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 0px;
+    border: 5px solid #ff5e00;
 }
  /*Servicios Home*/ 
 
@@ -234,6 +234,7 @@ div.projects1 {
 div.projects2 { 
     height: 400px;
     background: #aa1e1e;
+    margin-bottom: 50px;
 }
 
 .pro2 {
@@ -269,7 +270,6 @@ div.projects2 {
 }
 
 .pro2 a {
-
     background: #3f0808;
     color: #fff;
     float: right;
@@ -280,7 +280,6 @@ div.projects2 {
     width: 100px;
     text-decoration: none;
     transition: background-color 2.5s;
-    
 }
 
 .pro2 a:hover {

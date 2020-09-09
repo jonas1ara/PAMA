@@ -71,7 +71,7 @@ p {
     background-blend-mode: soft-light;
     height: 80vh;
     width: 100%;
-    margin:0px;
+    margin-bottom:50px;
     color: white;
     display: flex;
     align-items: center;
@@ -234,7 +234,7 @@ div.projects1 {
 div.projects2 { 
     height: 400px;
     background: #aa1e1e;
-    margin-bottom: 50px;
+    
 }
 
 .pro2 {

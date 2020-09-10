@@ -387,13 +387,13 @@ div.values {
     margin: auto 15px;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     div.values {
         height: 400px;
     }
     .val1 img {
-        height: 15vh;
+        height: 16vh;
         width: 15vw;
     }
 

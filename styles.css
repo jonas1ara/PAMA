@@ -349,7 +349,7 @@ div.projects2 {
 /*Values*/
 
 div.values {
-    height: 300px;
+    height: 350px;
     background: #757575;
 }
 
@@ -375,7 +375,7 @@ div.values {
 
 .val1 img {
     height: 25vh;
-    width: 10vw;
+    width: 25vw;
     margin: auto;
 }
 
@@ -387,7 +387,62 @@ div.values {
     margin: auto 15px;
 }
 
+@media screen and (min-width: 769px) {
 
+    div.values {
+        height: 400px;
+    }
+    .val1 img {
+        height: 15vh;
+        width: 15vw;
+    }
+
+    .val1 ul {
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 30px;
+        color: #FFF;
+        margin: auto 15px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+
+    div.values {
+        height: 400px;
+    }
+    .val1 img {
+        height: 33vh;
+        width: 20vw;
+    }
+
+    .val1 ul {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #FFF;
+        margin: auto 15px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+
+    div.values {
+        height: 400px;
+    }
+    .val1 img {
+        height: 20vh;
+        width: 15vw;
+    }
+
+    .val1 ul {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 35px;
+        color: #FFF;
+        margin: auto 30px;
+    }
+}
 
 
 /*

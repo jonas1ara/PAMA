@@ -360,9 +360,10 @@ div.values {
     justify-content: center;
     text-transform: uppercase;
     overflow: hidden;
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
     margin: 0px;
+    padding-top: 35px ;
 }
 
 .val1 {

@@ -646,7 +646,7 @@ h2 {
 
 
 :root {
-    --gradient-color: linear-gradient(to right bottom, rgba(70, 7, 7, 0.8), rgba(255, 255, 255, 0.8));
+    --gradient-color: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8));
 }
 
 html {

@@ -41,7 +41,6 @@ _www.grupopama.com.mx_
 ## Expresiones de Gratitud 🎁
 
 * Se que no es lo mejor, pero es mi primer proyecto entregado 🤦‍♂️.
-* Da las gracias públicamente 🤓.
 
 ---
 ⌨️ con ❤️ por [Jonas-Lara](https://github.com/Jonas-Lara) 😊

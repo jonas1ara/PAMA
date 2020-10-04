@@ -361,7 +361,7 @@ div.values {
     text-transform: uppercase;
     overflow: hidden;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0px;
     padding-top: 35px ;
 }
@@ -466,8 +466,33 @@ div.values {
 
 div.clientes {
     height: 420px;
-    background: #a2a2a2;
-    
+    background: #a2a2a2;   
+}
+
+.clientes h2 {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+    padding-top: 35px ;
+}
+
+.client {
+    display: flexbox;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.client img {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
 }
 
 /* Página Nosotros */ 

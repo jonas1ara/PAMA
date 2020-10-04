@@ -19,37 +19,24 @@ _Acá unas imagenes del sitio web_
 ## Móvil 📱
 
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/1p.png alt=""/>
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/2p.png alt=""/>
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/3p.png alt=""/>
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/4p.png alt=""/>
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/5p.png alt=""/>
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/6p.png alt=""/>
 
-<img src=/Capturas/WT.png alt="Windows_Terminal"/>
+<img src=/img/Móvil/7p.png alt=""/>
 
 
 ## Despliegue 📦
 
 _www.grupopama.com.mx_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 

@@ -1,6 +1,6 @@
-# Grupo PAMA es mi primer proyecto completo
+# Grupo PAMA is my first complete project
 
-_Acá unas imagenes del sitio web_
+_Here are some pictures from the website_
 
 ## Web 💻
 
@@ -34,13 +34,13 @@ _Acá unas imagenes del sitio web_
 <img src=/img/Móvil/7p.png alt=""/>
 
 
-## Despliegue 📦
+## Deployment 📦
 
 _www.grupopama.com.mx_
 
-## Expresiones de Gratitud 🎁
+## Expressions of Gratitude 🎁
 
-* Se que no es lo mejor, pero es mi primer proyecto entregado 🤦‍♂️.
+* I know it's not the best, but it's my first project delivered 🤦‍♂️.
 
 ---
-⌨️ con ❤️ por [Jonas-Lara](https://github.com/Jonas-Lara) 😊
+⌨️ with ❤️ by [Jonas-Lara](https://github.com/Jonas-Lara) 😊

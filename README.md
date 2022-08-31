@@ -16,7 +16,7 @@ _Here are some pictures from the website_
 <img src=/img/Web/5a.png alt=""/>
 
 
-## Móvil 📱
+## Mobile 📱
 
 
 <img src=/img/Móvil/1p.png alt=""/>
